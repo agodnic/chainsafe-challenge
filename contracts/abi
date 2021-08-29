@@ -1,0 +1,32 @@
+[
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "getCid",
+        "outputs": [
+            {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "s",
+                "type": "string"
+            }
+        ],
+        "name": "setCid",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }
+]
