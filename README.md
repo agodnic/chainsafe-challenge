@@ -30,7 +30,7 @@ This section outlines some decisions taken while solving the challenge.
 * I've chosen to use Makefiles + environment variables to glue pieces together.
   I like the fact that it's simple, and it is good enough for the purpose of a small exercise.
   In the end I made only one target (`make deploy`), but when starting the project I thought I would have more.
-* I've used remix to generate the smart contract's abi / bytecode.
+* I've used remix to generate the smart contract's abi / bytecode, and also to deploy on the blockchain.
   I could've created a Makefile target (i.e.: `make deploy`) to automate it, but I didn't have a lot of time left.
 * Could've added a Makefile target to query the stored CID (i.e.: `make query`). This could have been implemented as a separate binary that issued a smart contract query to get the CID.
   I decided not to do this because it wasn't required in the specification document.
