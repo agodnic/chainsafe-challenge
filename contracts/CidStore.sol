@@ -1,16 +1,16 @@
 pragma solidity 0.5.17;
 
 contract Counter {
-    
-    // Public variable of type unsigned int to keep the number of counts
+
+    // Private variable of type string to store the CID
     string cid = "";
 
-    // Function that increments our counter
+    // Function that stores a given CID
     function setCid(string memory s) public {
         cid = s;
     }
-    
-    // Not necessary getter to get the count value
+
+    // Getter function to access the stored CID.
     function getCid() public view returns (string memory) {
         return cid;
     }
